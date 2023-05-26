@@ -1,766 +1,676 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#5da2db"/>
+        <script src="js/scripts/load.js"></script>
+        <link rel='icon' type='image/png' href='img/icon-html/icon.png'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inconsolata&family=Roboto&family=Roboto+Mono&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleVideo.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="splide-4.1.3/dist/js/splide.min.js"></script>
+
+        <link rel="stylesheet" href="splide-4.1.3/dist/css/splide.min.css">
+        <link rel="stylesheet" href="css/spinner.css">
+        <link rel="stylesheet" href="css/animacoes.css">
+        <scrip src="js/scripts/scrolMenu.js"></scrip>
+
+        <title>Eduardo Amarante - Data Professional</title>
+
+    </head>
+
+    <body onload="load()">
+
+        <nav class="menu" onclick="activeMenu()">
+            <div>
+                <i class="bi bi-list" id="btMenu"></i>
+            </div>
+        </nav>
+        <nav class="elementos-menu">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class="bi bi-house-door-fill"></i>
+                        Home</a>
+                </li>
+                <li>
+                    <a href="#abautMe">
+                        <i class="bi bi-person-badge"></i>
+                        Abaut me</a>
+                </li>
+                <li>
+                    <a href="#certifications">
+                        <i class="bi bi-patch-check"></i>
+                    </i>Certifications</a>
+                </li>
+                <li>
+                    <a href="#skills">
+                        <i class="bi bi-stars"></i>
+                        Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        <i class="bi bi-peace-fill"></i>
+                        Projects</a>
+                </li>
+                <li>
+                    <a href="#ProfessionalExperience">
+                        <i class="bi bi-hammer"></i>
+                        Experience</a>
+                </li>
+                <li>
+                    <a href="#education">
+                        <i class="bi bi-book-half"></i>
+                        Education</a>
+                </li>
+                <li>
+                    <a href="#infoContact">
+                        <i class="bi bi-info-square"></i>
+                        Contact-me</a>
+
+                </li>
+
+
+        </ul>
+    </nav>
+
+    <div class="loader">
+
+        <div class="loadingio-spinner-wedges-tkpalxvykgc">
+            <div class="ldio-47w8kn2vslr">
+                <div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content=
-		"width=device-width, initial-scale=1.0">
-	<title>Portfolio</title>
-</head>
-
-<body>
-	<!--Header(start)-->
-	<table id="header" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td>
-							
-
-						</td>
-
-						<td>
-							<font face="Comic sans MS" size="6">
-								<b>  </b>
-							</font>
-						</td>
-
-						<td width="15%">
-							
-						</td>
-
-						<td>
-							<a href="#home" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									Home
-								</font>
-							</a>
-						</td>
-
-						<td>
-							|
-						</td>
-
-						<td>
-							<a href="#about" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									About
-								</font>
-							</a>
-						</td>
-
-						<td>
-							|
-						</td>
-
-						<td>
-							<a href="#projects" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									Projects
-								</font>
-							</a>
-						</td>
-
-						<td>
-							|
-						</td>
-
-						<td>
-							<a href="#education" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									Certifications
-								</font>
-							</a>
-						</td>
-
-						<td>
-							|
-						</td>
-						
-						<td>
-							<a href="#certifications" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									Education
-								</font>
-							</a>
-						</td>
-
-						<td>
-							|
-						</td>						
-						
-
-						<td>
-							<a href="#skills" style="text-decoration:none">
-								<font face="Verdana" size="5" color=black>
-									Skills
-								</font>
-							</a>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Header(end)-->
-
-	<!--Home(start)-->
-	<table id="home" border="1" width="100%"
-		cellpadding="20" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td align="center" valign="middle">
-							<h3>
-								<font face="Times New Roman"
-									size="6" color="#ffffff">
-									Eduardo Amarante
-								</font>
-							</h3>
-
-							<h2>
-								<font face="Verdana" size="6"
-									color="#4CAF50">
-									<!-- Freelance Programmer -->
-								</font>
-							</h2>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Home(end)-->
-
-
-	<!--About(start)-->
-	<table id="about" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="#4CAF50">
-								About Me
-							</font>
-							<hr color="#4CAF50" width="90">
-						</td>
-					</tr>
-
-					<tr>
-						<td width="20%">
-							<img src="foto3.png" alt="about" width="85%">
-						</td>
-
-						<td width="60%">
-							<font face="Verdana" size="4"
-								color="white">
-								
-								Thanks for your interest, here
-								is a brief history of my IT career.
-								<hr color="black">
-								My name is Eduardo Amarante and I'm Data
-								Analyst and Data Scientist.
-								I discovered my passion for IT when I was 
-								studying to my PhD in Geophysics Applied.
-								I love to solve business problems with 
-								machine learning and to create 
-								dashboards to help the maker decision
-								in the best choice for the company.
-
-								<hr color="black">
-
-								I do my work mainly in Python, R, SQL, Tableau and 
-								Power BI. Besides these I know Dash,
-								LINUX and git.
-								<hr color="black">
-
-								This portfolio has basically my  data science
-								and data analysis projects.
-								
-
-								Thanks again for reading this!
-								<hr color="black">
-								Cheers,
-								<br>
-								<b>Eduardo Amarante.</b>
-							</font>
-						</td>
-					</tr>
-				</table>
-				<hr color="black">
-				<hr color="black">
-				<hr color="black">
-			</td>
-		</tr>
-	</table>
-	<!--About(end)-->
-
-
-	<!--Projects(start)-->
-	<table id="projects" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="black">
-								Projects
-							</font>
-							<hr color="black" width="90">
-						</td>
-					</tr>
-
-					<tr>
-						<td height="10">
-							<font face="Times New Roman"
-								size="5" color="black">
-								<ul>
-									
-									<!----inicio do item---->
-									<li>
-										Data Analysis - 
-										<a href="https://github.com/emsamarante/emergency-911-call" style="text-decoration:none">
-											  Emergency: 911 Call
-										</a>
-									</li>
-									<!----Fim do item---->
-
-									<li>
-										<hr color="#c2c0c3">
-										Data Analysis - 
-										<a href="https://github.com/emsamarante/Financial-management" style="text-decoration:none"
-											color="#c2c0c3">
-											 Financial Management
-										</a>
-									</li>
-
-									<li>
-										<hr color="#c2c0c3">
-										Data Science -										
-										<a href="https://github.com/emsamarante/prediction-default-payment#readme" style="text-decoration:none">
-											 Default of Credit Card Clients
-										</a>
-									</li>
-									
-                                    <!----inicio do item---->
-									<li>
-										<hr color="#c2c0c3">
-										Data Analysis -
-										<a href=" https://crimes-vancouver.herokuapp.com" style="text-decoration:none">
-											 Crimes in Vancouver
-										</a>
-									</li>
-                                    <!----Fim do item---->
-                                    
-                                    <!----inicio do item---->
-									<li>
-										<hr color="#c2c0c3">
-										Data Analysis -
-										<a href="https://sales-supermarket.herokuapp.com/" style="text-decoration:none" target="_blank">
-											 Supermarket Sales
-										</a>
-									</li>
-                                    <!----Fim do item---->
-                                    
-                                    <!----inicio do item---->
-							<!--		<li>
-										<hr color="#c2c0c3">
-										Project 5
-										<a href="#" style="text-decoration:none">
-											 ➲
-										</a>
-									</li>
-                                    <!----Fim do item---->
-
-
-								</ul>
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-							</font>
-						</td>
-
-						<td width="35%">
-							<!--<img src="2018_Lower_Merion.PNG" alt="Project" width="35%">
-							<img src="default payment.png" alt="Project" width="85%">    -->
-					<!--		<img src="Call_template.svg" alt="Project" width="55%">
-							<img src="Call_template.svg" alt="Project" width="55%"> -->
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Projects(end)-->
-
-	<!--Certifications-->
-	<table id="certifications" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="#4CAF50">
-								Certifications
-							</font>
-							<hr color="#4CAF50" width="90">
-						</td>
-					</tr>
-
-					<tr>
-						<td height="10">
-							<font face="Verdana"
-								size="4" color="white">
-								<ul>
-									
-									<!--Quarto item-->
-									<li>
-										<b><a href="https://www.linkedin.com/learning/certificates/ac06fb0279365fad422b28d8f63ec2e088b5a0a8b4235e5ee31cf7f1de888e9e?trk=share_certificate&trk=lil_details_certification"
-										title="Click to see the certificate"> Tableau Essential Training</a>
-										</b>
-										
-										<ul>
-											<li>
-												December 2021
-											</li>
-										</ul>									
-									</li>
-									
-									
-									<h1></h1>
-									
-									<!-- Fim do Quarto item-->
-									
-									<!--Terceiro item-->
-									<li>
-										<b><a href="mycourse.app/K5HY35AVfqefEUcW9"
-										title="Click to see the certificate"> Microsoft Power BI to Data Science, Version 2.0</a>
-										</b>
-										
-										<ul>
-											<li>
-												November 2021
-											</li>
-										</ul>									
-									</li>
-									
-									
-									<h1></h1>
-									<!-- Fim do terceiro item-->
-									
-									<!--Segundo item-->
-									<li>
-										<b><a href="https://udemy.com/certificate/UC-d080a729-b731-4c36-ad67-0f10d57a78a3"
-										title="Click to see the certificate">Interactive Python Dashboards with Plotly and Dash</a>
-										</b>
-										
-										<ul>
-											<li>
-												September 2021
-											</li>
-										</ul>									
-									</li>
-									
-									
-									<h1></h1>
-									<!-- Fim do Segundo item-->
-									
-									<!--Primeiro item-->
-									<li>
-										<b><a href="https://udemy.com/certificate/UC-eaa827c7-a0c2-4f51-91d5-b478ac017c1e"
-										title="Click to see the certificate">Machine Learning and Data Science with Python from A to Z</a>
-										</b>
-										
-										<ul>
-											<li>
-												August 2021
-											</li>
-										</ul>
-									</li>
-									
-									<h1></h1>
-									<!--Fim do Primeiro item-->
-									
-									
-									<!--Quinto item-->
-							<!--		<li>
-										<b><a href="https://www.udemy.com/certificate/UC-d080a729-b731-4c36-ad67-0f10d57a78a3/"
-										title="Click to see the certificate"> SQL to Data Science</a>
-										</b>
-										
-										<ul>
-											<li>
-												December 2021
-											</li>
-										</ul>									
-									</li>
-									
-									
-									<h1></h1>
-									<!-- Fim do Quinto item-->
-
-
-								</ul>
-						<!--   <hr color="#c2c0c3">
-					        	<hr color="#c2c0c3">
-								<hr color="#c2c0c3">
-								<hr color="#c2c0c3">  -->
-							</font>
-						</td>
-
-						<!  <td width="45%">
-						<!	<img src="img.png" alt="Project" width="75%"> 
-						<!  </td>  
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Certifications-->
-
-	<!--Education(start)-->
-	<table id="education" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#c2c0c3">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center" valign="middle">
-							<font face="Verdana" size="7" color="black">
-								Education
-								<hr color="black" width="100">
-							</font>
-						</td>
-					</tr>
-
-					<tr>
-						<td>
-							<font face="Verdana" size="4" color="black">
-								<ul>
-									<li>
-										<b>
-											<a href="https://badges.wes.org/Evidence?i=8541c029-2221-4b2c-bcb8-6c2b5c111fac&type=ca"
-										title="Click to see the credential"> Phd in Geophysics Applied:</a>	
-										</b>
-										
-										<ul>
-											<li>
-												Federal University of Bahia
-											</li>
-											<li>
-												March 2016 - October 2020
-											</li>
-										</ul>
-									</li>
-
-									<li>
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<b>Bach. in Geophysics:</b>
-										<ul>
-											<li>
-												Federal University of Bahia
-											</li>
-											<li>
-												March 2011 - June 2015
-											</li>
-										</ul>
-									</li>
-
-									<li>
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<b>Masters Degree in Geophysics:</b>
-										<ul>
-											<li>
-												Federal University of Bahia
-											</li>
-											<li>
-												August 2009 - May 2013
-											</li>
-										</ul>
-									</li>
-									
-									<li>
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<hr color="#c2c0c3">
-										<b>Licenciate in Physics:</b>
-										<ul>
-											<li>
-												State University of Feira de Santana
-											</li>
-											<li>
-												February 2005 - October 2010
-											</li>
-										</ul>
-									</li>
-									</li>
-											<hr color="#c2c0c3">
-											<hr color="#c2c0c3">
-											<hr color="#c2c0c3">
-											<hr color="#c2c0c3">
-					<!--					<hr color="black">    -->
-										</ul>
-									</li>
-
-								</ul>
-
-							</font>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Education(end)-->
-
-	<!--Skills-->
-	<table id="skills" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="80%" align="center">
-					<tr>
-						<td height="180" align="center"
-							valign="middle" colspan="2">
-							<font face="Verdana" size="7"
-								color="#4CAF50">
-								Skills
-							</font>
-							<hr color="#4CAF50" width="90" size="10">
-						</td>
-					</tr>
-
-					<tr>
-						<td height="10">
-							<font face="Verdana"
-								size="4" color="white">
-								<ul>
-									
- 								
-									<!--Terceiro item-->
-									<li>
-										<b> Machine Learning </b> <br>
-										<progress value="80" max="100" style="">80 % </progress>
-									</li>
-									
-									<h1></h1>
-									
-									<li>
-										<b> Statistic Analysis </b> <br>
-										<progress value="50" max="100">50 %</progress> 
-									</li>									
-									
-									<h1></h1>
-									
-									<li>
-										<b> SQL </b> <br>
-										<progress value="85" max="100">85 %</progress>
-									</li>									
-									
-									<h1></h1>									
-									
-									<li>
-										<b> Power BI </b>  <br>
-										<progress          value="80" max="100">80 % </progress>
-									</li>		
-									
-									<li>
-										<b> Tableau </b>  <br>
-										<progress          value="20" max="100">20 % </progress>
-									</li>								
-									
-									<h1></h1>
-									
-									<li>
-										<b> Python </b> <br>
-										 <progress value="75" max="100">75 % </progress>
-									</li>									
-									
-									<h1></h1>
-									
-									<li>
-										<b> English </b> <br>
-										 <progress value="78" max="100">78 % </progress>
-									</li>									
-									
-									<h1></h1>
-									
-									<li>
-										<b> French </b> <br>
-										 <progress value="10" max="100">70 % </progress>
-									</li>									
-									
-									<h1></h1>
-									<br>
-									<br>
-									
-									<!-- Fim do terceiro item-->
-
-
-								</ul>
-
-							</font>
-						</td>
-
-						<!  <td width="45%">  >
-						<!	<img src="img.png" alt="Project" width="75%">  >
-						<!  </td>  >
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Skills-->
-<style type="text/css">
-progress {
-  border: none;
-  width: 400px;
-  height: 18px;
-  background: #c2c0c3;
-}
-
-progress {
-  color: green;
-}
-
-progress::-moz-progress-bar {
-  background: #4CAF50;
-}
-
-progress::-webkit-progress-value {
-  background: red;
-}
-
-progress::-webkit-progress-bar {
-  background: #4CAF50;
-}
-</style>
-
-
-
-
-
-	<!--Footer1(start)-->
-	<table id="footer" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="#4CAF50">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						
-						<td width="13%" valign="top">
-							<b>
-								<a href="https://www.linkedin.com/in/eduardo-amarante/" style="text-decoration:none">
-								LinkedIn
-								</a>
-							</b>
-						
-						</td>
-
-						<td>
-							|
-						</td>
-
-						<td width="13%" valign="top">
-							<b>
-								<a href="https://github.com/emsamarante" style="text-decoration:none">
-								GitHub
-								</a>								
-							</b>
-							
-						</td>
-
-						<td>
-							|
-						</td>
-                         
-                        <! -- começa o item -->
-						<td width="0%" valign="top">
-							<b> Telephone: +55 71 99407-8483</b>
-							
-						</td>
-
-						<td>
-							|
-						</td>
-                        <! -- termina o item -->
-						
-
-						<td width="0%" valign="top">
-							<b>Email: edu.amarante18@gmail.com</b>
-
-						</td>
-
-						<td>
-							|
-						</td>
-
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Footer1(end)-->
-
-
-	<!--Footer2(start)-->
-	<table id="footer" border="0" width="100%"
-		cellpadding="0" cellspacing="0" bgcolor="black">
-		<tr>
-			<td>
-				<table border="0" cellpadding="15"
-					cellspacing="0" width="90%" align="center">
-					<tr>
-						<td width="80%" valign="top">
-							<font face="Verdana"
-								color="#4CAF50" size="5">
-
-							</font>
-						</td>
-
-						<td width="10%">
-							<font face="arial" color="black" size="5">
-								<a href="#header" style="text-decoration:none">
-									<font face="Verdana" color="#4CAF50" size="6">
-										<b>  </b>
-									</font>
-								</a>
-							</font>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-	</table>
-	<!--Footer2(end)-->
-
-</body>
-
-</html>
+        <h1>
+            Loading Big Data...
+        </h1>
 
+    </div>
+
+    <!-- -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- -->
+
+    <header class="cover">
+        <video autoplay="true" class="bg_video" muted="true" loop="loop">
+
+            <source src="media/cover-data (2).mp4" type="video/mp4">
+
+        </video>
+
+        <h2>Eduardo Amarante</h2>
+        <h1>
+            <b>Data Professional</b>
+        </h1>
+        <h3>Welcome</h3>
+        <div>
+            <a href="#" target="_blank">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="#" target="_blank">
+                <i class="bi bi-linkedin"></i>
+            </a>
+        </div>
+
+    </header>
+
+    <!-- -------------------------------------------------------- -->
+    <!-- -------------------------------------------------------- -->
+
+    <main>
+
+        <!-- ------------------ -->
+        <!-- ------------------ -->
+        <hr class="linha01">
+        <section class="sobre-mim" id="abautme">
+
+            <div class="titulo-secao"></div>
+            <div class="titulo-secao-sobre-mim">
+                <h3 id="abautMe">#Abaut me</h3>
+
+            </div>
+
+            
+
+
+
+
+            <div>
+                
+               
+
+                <p> 
+
+
+
+                    <span style="color:white;">Thanks for your interest</span>, here is 
+                    a brief history of my IT career.<br><br>
+
+                    My name is Eduardo Amarante and I'm Data Analyst and Data Scientist. I
+                    discovered my passion for IT when I was studying to my PhD in Geophysics
+                    Applied. I love to solve business problems with machine learning and to create
+                    dashboards to help the maker decision in the best choice for the company.<br><br>
+                    I do my work mainly in Python, R, SQL, Tableau and Power BI. Besides these I
+                    know Dash, LINUX and git.<br><br>
+                    This portfolio has basically my data science and data analysis projects. Thanks
+                    again for reading this! Cheers, Eduardo Amarante.
+
+                    <br>
+                    
+                </p>
+
+                <img src="img/perfil/perfilEdu.png" class="sobre-mim-img-perfil" ><br>
+
+            </div>
+
+
+
+            </section>
+
+            <section class="certificacoes" id="certifications">
+                <div class="titulo-secao">
+                    <h2>#Certifications</h2>
+
+                </div>
+
+                <ul>
+
+                    <li>
+                        <img src="img/svg/certificado.svg"><a href="#" target="_blank">Tableau Essential Training | December 2021</a>
+                    </li>
+
+                    <li>
+                        <img src="img/svg/certificado.svg"><a href="#" target="_blank">Microsoft Power BI to Data Science, Version 2.0 | November 2021</a>
+                    </li>
+
+                    <li>
+                        <img src="img/svg/certificado.svg"> <a href="#" target="_blank">Interactive Python Dashboards with Plotly and Dash | September 2021</a>
+                    </li>
+
+                    <li>
+                        <img src="img/svg/certificado.svg"> <a href="#" target="_blank">Machine Learning and Data Science with Python from A to Z | August 2021</a>
+                    </li>
+
+                </ul>
+
+                <div class="rodape-seccao">
+                    <img src="img/icons-page/21.png" class="icone-anime">
+                    <img
+                        src="img/icons-page/20.png"
+                        class="icone-anime"
+                        style="animation: girar 30s infinite;">
+                    <img src="img/icons-page/22.png" class="icone-anime">
+
+                </div>
+
+            </section>
+
+
+            <div class="titulo-secao" style="margin-bottom: 50px;" id="skills">
+                <h2>#Skills and technologies</h2>
+                <hr class="linha01">
+
+            </div>
+
+            <section class="skills" >
+
+                <section class="splide" style="padding-left: 5%;" id="slider1">
+                    <div class="splide__slider">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/airflow.png" alt="airflow"><figcaption>AirFlow</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/astronomer.png" alt="astronomer"><figcaption>Astronomer</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/docker.png" alt="docker"><figcaption>Docker</figcaption></figure></li>
+                                <!--<li class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/kubernets.png" alt="kubernets"></li> -->
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/kanfra.png" style="background-color: rgb(51, 106, 155); border-radius: 5px;" alt="apache Kanfra"><figcaption>Apache Kanfra</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/python.png" alt="python"><figcaption>Python</figcaption></figure></li>
+                                <!--<li class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/java.png"></li> <li class="splide__slide"
+                                data-splide-interval="1500"><img src="img/icons/scala.png"></li> <li
+                                class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/spark.png"></li>-->
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/mysql.png" alt="mySql"><figcaption>MySQL</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/postgree.png" alt="Postgree SQL"><figcaption>Postgree SQL</figcaption></figure></li>
+                                <!--<li class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/oracle.png"></li>-->
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/dremio.png" alt="dremio" style="background-color: rgb(51, 106, 155); border-radius: 5px;"><figcaption>Dremio</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/html.png" alt="html"><figcaption>HTML</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/css.png" alt="CSS"><figcaption>CSS</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/powerbi.png" alt="powerBI"><figcaption>PowerBI</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/tablau.png" style="background-color: rgb(51, 106, 155); border-radius: 5px;" alt="Tableau"><figcaption>Tableau</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/scickt.png" alt="scikit learn"><figcaption>Scikit Learn</figcaption></figure></li>
+                                <!--<li class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/kassandra.png"></li>-->
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/mongodb.png" alt="mongoDB"><figcaption>MongoDB</figcaption></figure></li>
+                                <li class="splide__slide" data-splide-interval="1500"><figure class="fig1"><img src="img/icons/hadoop.png" alt="Hadoop"><figcaption>Hadoop</figcaption></figure></li>
+                                <!--<li class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/elastic search.png"></li> <li class="splide__slide"
+                                data-splide-interval="1500"><img src="img/icons/kibana.png"></li> <li
+                                class="splide__slide" data-splide-interval="1500"><img
+                                src="img/icons/aws.png"></li> <li class="splide__slide"
+                                data-splide-interval="1500"><img src="img/icons/azure.png"></li>-->
+
+                            </ul>
+                        </div>
+                    </div>
+                    <button class="splide__toggle" type="button"></button>
+
+                </section>
+
+            </section>
+
+
+
+            <!-- ------------------ -->
+
+            <hr class="linha01">
+
+            <section class="projetos" id="projects">
+                <div class="titulo-secao">
+                    <h2>#Projects</h2>
+                </div>
+
+                <main>
+
+                    <!-- -----PROJETO------ -->
+
+                    <!-- ------------------ -->
+
+                    <section class="splide" id="slider2">
+                        <div class="splide__slider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+
+                                    <!-- --------1---------- -->
+                                    <!-- ------------------ -->
+
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+                                    <li class="splide__slide" data-splide-interval="5000">
+                                        <figure class="projeto">
+                                            <div
+                                                class="projeto-espelho-img"
+                                                style=" background-image: url('img/tumb-projects/call911.png');"></div>
+                                            <figcaption class="titulo-projeto">Data Analysis - Emergency: 911 Call</figcaption>
+
+                                            <figcaption class="titulo-tecnologia-projeto">Technologies:</figcaption>
+
+                                            <figcaption class="tecnologias-projeto">
+                                                <span>Python</span>
+
+                                            </figcaption>
+
+                                            <figcaption class="titulo-descricao-projeto">Summary:</figcaption>
+
+                                            <figcaption class="descricao-projeto">
+
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem
+                                                Ipsum is simply dummy text of the printing and
+
+                                            </figcaption>
+
+                                            <figcaption class="link-projeto-area">
+                                                <a
+                                                    href="https://github.com/emsamarante/emergency-911-call"
+                                                    class="link-projeto"
+                                                    target="_blank">
+                                                    Click to here for view the project
+                                                </a>
+                                            </figcaption>
+
+                                        </figure>
+
+                                    </li>
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+
+                                    <!-- --------2---------- -->
+                                    <!-- ------------------ -->
+                                    <li class="splide__slide" data-splide-interval="5000">
+                                        <figure class="projeto">
+                                            <div
+                                                class="projeto-espelho-img"
+                                                style=" background-image:url('img/tumb-projects/Financial-management.png');"></div>
+                                            <figcaption class="titulo-projeto">Data Analysis - Financial Management</figcaption>
+
+                                            <figcaption class="titulo-tecnologia-projeto">Technologies:</figcaption>
+
+                                            <figcaption class="tecnologias-projeto">
+                                                <span>PowerBi</span>
+
+                                            </figcaption>
+
+                                            <figcaption class="titulo-descricao-projeto">Summary:</figcaption>
+
+                                            <figcaption class="descricao-projeto">
+
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's
+
+                                            </figcaption>
+
+                                            <figcaption class="link-projeto-area">
+                                                <a
+                                                    href="https://github.com/emsamarante/Financial-management"
+                                                    class="link-projeto"
+                                                    target="_blank">
+                                                    Click to here for view the project
+                                                </a>
+                                            </figcaption>
+
+                                        </figure>
+
+                                    </li>
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+                                    <!-- ---------3--------- -->
+                                    <li class="splide__slide" data-splide-interval="5000">
+                                        <figure class="projeto">
+                                            <div
+                                                class="projeto-espelho-img"
+                                                style=" background-image:url('img/tumb-projects/default-payment2.png');"></div>
+                                            <figcaption class="titulo-projeto">Data Science - Default of Credit Card Clients</figcaption>
+
+                                            <figcaption class="titulo-tecnologia-projeto">Technologies:</figcaption>
+
+                                            <figcaption class="tecnologias-projeto">
+                                                <span>Python</span>
+
+                                            </figcaption>
+
+                                            <figcaption class="titulo-descricao-projeto">Summary:</figcaption>
+
+                                            <figcaption class="descricao-projeto">
+
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's
+
+                                            </figcaption>
+
+                                            <figcaption class="link-projeto-area">
+                                                <a
+                                                    href="https://github.com/emsamarante/prediction-default-payment"
+                                                    class="link-projeto"
+                                                    target="_blank">
+                                                    Click to here for view the project
+                                                </a>
+                                            </figcaption>
+
+                                        </figure>
+
+                                    </li>
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+                                    <!-- ------4------------ -->
+                                    <!-- ------------------ -->
+                                    <li class="splide__slide" data-splide-interval="5000">
+                                        <figure class="projeto">
+                                            <div
+                                                class="projeto-espelho-img"
+                                                style=" background-image:url('img/tumb-projects/default-payment2.png');"></div>
+                                            <figcaption class="titulo-projeto">Data Science - Default of Credit Card Clients</figcaption>
+
+                                            <figcaption class="titulo-tecnologia-projeto">Technologies:</figcaption>
+
+                                            <figcaption class="tecnologias-projeto">
+                                                <span>Python</span>
+
+                                            </figcaption>
+
+                                            <figcaption class="titulo-descricao-projeto">Summary:</figcaption>
+
+                                            <figcaption class="descricao-projeto">
+
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                                Ipsum has been the industry's standard dummy text ever since the 1500s, Lorem
+                                                Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                                                has been the industry's
+
+                                            </figcaption>
+
+                                            <figcaption class="link-projeto-area">
+                                                <a
+                                                    href="https://github.com/emsamarante/prediction-default-payment"
+                                                    class="link-projeto"
+                                                    target="_blank">
+                                                    Click to here for view the project
+                                                </a>
+                                            </figcaption>
+
+                                        </figure>
+
+                                    </li>
+                                    <!-- ------------------ -->
+                                    <!-- ------------------ -->
+
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="splide__toggle" type="button"></button>
+
+                    </section>
+            
+            </section>  
+
+
+            <!-- ------------------ -->
+
+            
+            <section class="exp-profissional" id="ProfessionalExperience">
+                <div class="titulo-secao">
+                    <h2>#Professional Experience</h2>
+                </div>
+            
+                <ul>
+                    <li>
+
+                        <h3>Company: Rede Globo</h3>
+                        <h3>Period: from <span style="color:#5da2db">2022</span> to <span style="color:#5da2db;">Actualy</span></h3>
+                        <hr>
+                        
+                        <p>
+                            It is a long established fact that a reader will
+                             be distracted by the readable content of a page
+                              when looking at its layout. The point of using 
+                              Lorem Ipsum is that 
+                              It is a long established fact that a reader will
+                              be distracted by the readable content of a page
+                               when looking at its layout. The point of using 
+                               Lorem Ipsum is that 
+                               It is a long established fact that a reader will
+                               be distracted by the readable content of a page
+                                when looking at its layout. The point of using 
+                                Lorem Ipsum is that 
+                        </p>
+                        <p>
+                            It is a long established fact that a reader will
+                             be distracted by the readable content of a page
+                              when looking at its layout. The point of using 
+                              Lorem Ipsum is that 
+                              It is a long established fact that a reader will
+                              be distracted by the readable content of a page
+                               when looking at its layout. The point of using 
+                               Lorem Ipsum is that 
+                               It is a long established fact that a reader will
+                               be distracted by the readable content of a page
+                                when looking at its layout. The point of using 
+                                Lorem Ipsum is that 
+                        </p>
+
+                        
+                        
+                    </li>
+
+
+                    <!---->
+                   
+                </ul>
+
+            </section>  
+
+            <!-- ------------------ -->
+
+
+            <!-- ------------------ -->
+
+            <section class="educacao" id="education">
+                <div class="titulo-secao">
+                    <h2>#Education</h2>
+
+                </div>
+
+                <div>
+
+                    <ul class="items-list">
+                        <h1 class="items-curso">October 2020</h1>
+                        <h3 class="items-curso">Phd in Geophysics Applied</h3>
+
+                        <li>Federal University of Bahia</li>
+                        <li>March 2016 - October 2020</li>
+                    </ul>
+
+                    <ul class="items-list">
+                        <h1>June 2015</h1>
+                        <h3 class="items-curso">Bach. in Geophysics</h3>
+
+                        <li>Federal University of Bahia</li>
+                        <li>March 2011 - June 2015</li>
+                    </ul>
+
+                    <ul class="items-list">
+                        <h1>May 2013</h1>
+                        <h3 class="items-curso">Masters Degree in Geophysics</h3>
+
+                        <li>Federal University of Bahia</li>
+                        <li>August 2009 - May 2013</li>
+                    </ul>
+
+                    <ul class="items-list">
+                        <h1>
+                            October 2010</h1>
+                        <h3 class="items-curso">Licenciate in Physics</h3>
+
+                        <li>
+                            <span style="list-style: none;">State University of Feira de Santana</span></li>
+                        <li>February 2005 - October 2010</li>
+                    </ul>
+
+                </div>
+
+                <div class="rodape-seccao">
+                    <img src="img/icons-page/31.png" class="icone-anime">
+                    <img
+                        src="img/icons-page/3.png"
+                        class="icone-anime"
+                        style="animation: girar 30s infinite;">
+                    <img src="img/icons-page/dados.png" class="icone-anime">
+
+                </div>
+
+            </section>
+
+            <!-- ------------------ -->
+            <!-- ------------------ -->
+
+
+
+            <!-- ------------------ -->
+
+
+            <!-- ------------------ -->
+
+
+
+
+
+            </main>
+
+                <!-- -------------------------------------------------------- -->
+                <!-- -------------------------------------------------------- -->
+
+
+               
+                
+                <footer class="rodape-page" id="infoContact">
+
+                    <div>
+                        
+
+                        <div class="titulo-secao">
+                            <h2>#Contact-me</h2>
+                        </div>
+                        
+                        <p>
+                            <i class="bi bi-envelope-at-fill"></i>
+                            Email: edu.amarante18@gmail.com<br>
+                        </p>
+
+                        <p>
+                            <a>
+                                <i class="bi bi-linkedin"></i>
+                                Linkedin: Eduardo-amarante</a><br>
+                        </p>
+
+                        <p>
+                            <a href="#" target="_blank">
+                                <i class="bi bi-github"></i>
+                                GitHub: emsamarante</a><br>
+
+                        </p>
+
+                        <p>
+                            <a href="#" target="_blank">
+                                <i class="bi bi-whatsapp"></i>
+                                Telephone: +55 71 99407-8483</a>
+                        </p>
+
+                    </div>
+                    <div class="dev">
+                        <hr class="linha02">
+                        <p class="dev">Page development:
+                            <a href="https://cdenner.com.br/" target="_blank">CDenner</a>
+                        </p>
+                    </div>
+
+                </footer>
+
+
+                <script src="js/scripts/active-menu.js"></script>
+                <script src="js/scripts/carousel.js"></script>
+                <script src="js/scripts/scroll.js"></script>
+
+            </body>
+        </html>
