@@ -1,0 +1,60 @@
+@keyframes modifyColor {from {background-color: #443C68 ;} 50% {background-color: #5da2db; } 75% {background-color:#1D1D1E ; } to {background-color: #443C68 ;}}
+
+
+@keyframes girar{ to {transform: rotate(1turn);}}
+
+
+
+@keyframes mudarEscala { 
+   
+    from {transform: scale(1) }
+    50% {transform: scale(0.5)    }
+    to {transform: scale(1)    }
+
+    
+}
+
+
+@keyframes translacao {
+
+    to {transform: translate(10px);}
+    
+}
+
+@keyframes opacidade {
+
+    from {opacity: 0;}
+    50% {opacity: 1;}
+
+    to { opacity: 0;}
+    
+}
+
+@keyframes alterWidth {
+
+    from {width: 1%;}
+    to {width: 100%;}
+   
+
+    
+}
+
+
+@keyframes colorBackground {
+    0% {background-size: 1%;}
+   
+    50% {background-size: 100%;}
+
+    100%{background-size: 1%;}
+}
+
+
+@keyframes translacaoMenu {
+
+    0%{transform: translateY(50px);}
+
+    100%{transform: translateY(-1px); }
+    
+}
+
+
