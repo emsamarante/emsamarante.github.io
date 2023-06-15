@@ -5,7 +5,7 @@
     .educacao div{padding-bottom: 60px;}
     .educacao h2{position: absolute;}
     .educacao ul{ transition: 0.2s; border-left: 3px solid white;margin-left: 2px; padding-left: 15px; min-height: 200px;}
-    .educacao ul::before {content:''; background-color:   #3dcd87; width:30px; height: 30px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
+    .educacao ul::before {content:''; background-color:   #212c49; width:30px; height: 30px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
     .educacao ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322); }
     .educacao ul li{margin: 5px; list-style: none; margin-left: 10px; color: white;}
     .educacao h1{margin-top: 1px; color: #ffffff ; margin-bottom: 1px;}
@@ -20,7 +20,7 @@
     .educacao div{padding-bottom: 60px;}
     .educacao h2{position: absolute;}
     .educacao ul{ transition: 0.2s; border-left: 3px solid white;margin-left: 2px; padding-left: 15px; min-height: 200px;}
-    .educacao ul::before {content:''; background-color:  #3dcd87; width:30px; height: 30px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
+    .educacao ul::before {content:''; background-color:  #212c49; width:30px; height: 30px; position: relative; display: block; border-radius: 50%;left: -31px; top: -1px;}
     .educacao ul:hover{box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.322); }
     .educacao ul li{margin: 5px; list-style: none; margin-left: 10px; color: white;}
     .educacao h1{margin-top: 1px; color: #ffffff ; margin-bottom: 1px;}
