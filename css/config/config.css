@@ -1,0 +1,13 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+body::-webkit-scrollbar {width: 5px}
+body::-webkit-scrollbar-track {background: #1e3036;}
+body::-webkit-scrollbar-thumb {background-color:#60c1e7 ;}
+body{background-image:linear-gradient(to right,#1D1D1E, #2e2e3b,#1D1D1E);overflow-x:hidden;}
+
+
+html { scroll-behavior: smooth; }
+
+:target{scroll-margin-top: 1px;}
+
+main { display: none;}

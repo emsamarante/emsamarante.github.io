@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+
+
+    .cover{width: 100%; height: 100vh; color: white; text-align: center; display: none; align-items: center; justify-content: center; flex-direction: column; overflow: hidden; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);}
+    .cover h1{font-size: 1.9rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .cover h2{font-size: 1.2rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover h3{font-size: 1rem;}
+    .cover a{color: white;}
+ 
+}
+
+@media (min-width: 768px){
+
+    .cover{width: 100%; height: 100vh; color: white; text-align: center; display: none; align-items: center; justify-content: center; flex-direction: column; overflow: hidden; background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db);}
+
+    .cover h1{font-size: 3.5rem; color: #6db0e7; font-family: 'Chakra Petch', sans-serif; text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.712);}
+    .cover h2{font-size: 1.8rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover h3{font-size: 1.6rem; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);}
+    .cover a{color: white; font-size: 1.3rem;} 
+    .cover a:hover{color: #60c1e7;}
+}

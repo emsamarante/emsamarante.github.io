@@ -1,0 +1,7 @@
+:root{
+    --fontContentDefault:'Roboto', sans-serif;
+    --boxShadowDefault:  1px 1px 10px 1px rgba(0, 0, 0, 0.322);
+    --marginComponent:5%;
+    --colorFont1: #73737e;
+
+}

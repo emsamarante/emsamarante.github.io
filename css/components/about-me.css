@@ -1,0 +1,20 @@
+@media (max-width: 768px){
+
+
+    .sobre-mim{display: flex;flex-direction: column;align-items: center; margin: var( --marginComponent);}
+    .sobre-mim h2{position: absolute; background-color:#1D1D1E ;}
+    .sobre-mim section{border-radius: 20px; padding: 20px; background-color:#222223;font-family: var(--fontContentDefault);box-shadow:var(--boxShadowDefault);display: flex; align-items: center; justify-content: center; flex-direction: column;}
+    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79e7, #5da2dbd3), url('https://celsocestaro.com.br/wp-content/uploads/2020/06/analise-de-dados-a-favor-do-futuro-do-negocio-1580759422.jpg');background-repeat: repeat;background-size: cover; background-position: center; background-repeat: no-repeat; width: 70%; margin-top: 25px; margin-bottom: 15px;}
+    .sobre-mim p{text-align: justify; color: var(--colorFont1);font-family: var(--fontContentDefault);text-indent: 2rem;}
+
+
+}
+
+@media (min-width: 768px){
+
+    .sobre-mim{display: flex;flex-direction: column;align-items: center; margin: var( --marginComponent);}
+    .sobre-mim h2{position: absolute; background-color:#1D1D1E ; font-size: 5rem;}
+    .sobre-mim section{border-radius: 20px; padding: 20px; background-color:#222223;font-family: var(--fontContentDefault);box-shadow:var(--boxShadowDefault); }
+    .sobre-mim-img-perfil{border-radius: 50%; background-image:linear-gradient(to top, #3a2c79e7, #5da2dbd3), url('https://celsocestaro.com.br/wp-content/uploads/2020/06/analise-de-dados-a-favor-do-futuro-do-negocio-1580759422.jpg'); background-repeat: repeat;background-size: cover; background-position: center; background-repeat: no-repeat; width: 250px; margin-top: 25px; margin-bottom: 15px;margin-left: 10px;float: left;shape-outside: circle(50%);margin: 20px;}
+    .sobre-mim p{font-size: 1.4rem; text-align: justify; margin: 25px 0px 25px 0px;color: var(--colorFont1)}
+}

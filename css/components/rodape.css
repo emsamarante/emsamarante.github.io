@@ -1,0 +1,24 @@
+@media (max-width: 768px){
+
+    .icone-anime{ width: 64px; height: 64px; background-color: transparent;}
+    .rodape-seccao {overflow: hidden;display: none; justify-content: center; align-items: center; margin: 5px;}
+
+    .rodape-page{width: 100%; min-height: 250px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: none; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
+    .rodape-page div{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; min-height: 100%;}
+    .rodape-page div p{color: white; margin: 5px;}
+    .rodape-page div p a{color: white;}
+
+
+}
+
+@media (min-width: 768px){
+
+    .icone-anime{ width: 64px; height: 64px; background-color: transparent;}
+    .rodape-seccao {overflow: hidden; display: none; justify-content: center; align-items: center; margin: 5px;}
+
+    .rodape-page{width: 100%; min-height: 200px; background-image: linear-gradient(to bottom,#1d1d1eb6, #443c6891, #5da2db); display: none; justify-content: center; align-items:flex-end; flex-direction: column;font-family: 'Chakra Petch', sans-serif;}
+    .rodape-page div{ display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; min-height: 100%;}
+    .rodape-page div p{color: white; margin: 5px;}
+    .rodape-page div p a{color: white;}
+
+}

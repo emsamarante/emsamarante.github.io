@@ -1,0 +1,6 @@
+
+
+.loader{ display: flex; width: 100vw; height: 100vh; justify-content: center; align-items: center;  background-image: linear-gradient(to top,#1d1d1eb6, #443c6891, #5da2db); flex-direction: column;}
+.loader h1 {font-size: 1.7rem; color: #5da2db; font-family: 'Chakra Petch', sans-serif;}
+.loader h2 {font-size: 1.2rem; font-family: 'Roboto', sans-serif;text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.829);color: white;}
+.loader h3{font-size: 1rem; color: white;}
