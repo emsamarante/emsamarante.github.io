@@ -48,4 +48,9 @@
     .container_filter{
         flex-direction: column;
     }
+
+    .li_filter{
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
 }
