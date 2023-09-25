@@ -388,6 +388,34 @@
                 <h2>#Projects</h2>
             </div>
 
+            <div class="container_filter">
+
+                <div class="title_filter">Categories:</div>               
+
+                <ul class="ul_filter">
+                    <li class="li_filter active_filter" onclick="execFilter('All')">
+                        All
+                    </li>
+                    <li class="li_filter" onclick="execFilter('Data Analysis')">
+                        Data Analysis
+                    </li>
+                    <li class="li_filter" onclick="execFilter('Data Science')">
+                        Data Science
+                    </li>
+                    <li class="li_filter" onclick="execFilter('Data Engineering')">
+                        Data Engineering
+                    </li>
+                    <li class="li_filter" onclick="execFilter('Data Viz')">
+                        Data Viz
+                    </li>
+                    <li class="li_filter" onclick="execFilter('Others')">
+                        Others
+                    </li>
+                </ul>
+
+
+            </div>
+
             <main>
 
                 <!-- -----PROJETO------ -->
@@ -404,7 +432,7 @@
 
                                 <!-- ------------------ -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000"  filter="bau">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/emergency-call.png');">
@@ -446,7 +474,7 @@
 
                                 <!-- --------2---------- -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Data Engineering">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/financial.png');">
@@ -490,7 +518,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------------------ -->
                                 <!-- ---------3--------- -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Data Engineering">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/credit-card.png');">
@@ -529,7 +557,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------4------------ -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Others">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/sql-hadoop.png');">
@@ -571,7 +599,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------5------------ -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Others">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/shell.png');">
@@ -609,7 +637,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------6 ---------- -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Others">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/pipa.png');">
@@ -652,7 +680,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------ 7 ---------- -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Others">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/IacWithShellScript.png');">
@@ -695,7 +723,7 @@
                                 <!-- ------------------ -->
                                 <!-- ------ 8 ---------- -->
                                 <!-- ------------------ -->
-                                <li class="splide__slide" data-splide-interval="5000">
+                                <li class="splide__slide" data-splide-interval="5000" filter="Others">
                                     <figure class="projeto">
                                         <div class="projeto-espelho-img"
                                             style=" background-image: linear-gradient(to right,#443c6871, #5da2db1a) ,url('img/tumb-projects/QueriesComparison.png');">
@@ -927,6 +955,7 @@
     <script src="js/scripts/active-menu.js"></script>
     <script src="js/scripts/carousel.js"></script>
     <script src="js/scripts/scroll.js"></script>
+    <script src="js/scripts/filter-projects.js"></script>
 
 </body>
 

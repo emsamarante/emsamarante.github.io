@@ -1,6 +1,6 @@
 @media (max-width: 768px){
  
-    .projetos{display: flex;flex-direction: column;align-items: center;justify-content: center;padding-top: 25px; font-family: 'Chakra Petch', sans-serif; min-height: 100vh;}
+    .projetos{display: flex;flex-direction: column;align-items: center;justify-content: flex-start;padding-top: 25px; font-family: 'Chakra Petch', sans-serif; min-height: 100vh;}
     .projetos h2{position: absolute; }
     .projetos main{display: flex;align-items: center;justify-content: center; flex-wrap: wrap; margin: 5px; padding: 5px; width: 100%; margin-top: 20px; margin-bottom: 20px;}
 
@@ -41,7 +41,7 @@
 
 @media (min-width: 768px){
 
-    .projetos{display: flex;flex-direction: column;align-items: center;justify-content: center;padding-top: 50px; font-family: 'Chakra Petch', sans-serif; min-height: 100vh;}
+    .projetos{display: flex;flex-direction: column;align-items: center;justify-content:flex-start;padding-top: 50px; font-family: 'Chakra Petch', sans-serif; min-height: 100vh;}
     .projetos h2{position: absolute; }
     .projetos main{display: flex;align-items: center;justify-content: center; flex-wrap: wrap; margin: 5px; padding: 5px; width: 100%; margin-top: 20px; margin-bottom: 20px;}
 
